@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+/*selector universal*/
+*{
+	box-sizing: border-box;
+	/*descuento de with y height lo sumado en relleno y borde*/
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	/* margin es distanciamiento entre los elementos
+	margin:auto; centra a un elemento en pantalla horizontalmente
+	margin-top:;
+	margin-right:;
+	margin-botton:;
+	margin-left:;  si hay dos valores el primero sera para arriba y abajo y el otro der e izq - si fueran 3 valores el primero top segundo left y right y el ultimo abajo*/
+}
+/* Reset */
+/* Agrupacion de selectores */
+ul, ol{
+	list-style: none;/* elimina viñetas */
+	margin: 0;
+	padding: 0;
+	/*  padding-top:;
+	padding-right:;
+	padding-botton:;
+	padding-left:; */
+}
+figure{
+	margin: 0;
+}
+
+.logo{
+	float:left;
+	/*border:solid 1px green;*/
+
+}
+.main-header{
+	width: 1200px;
+	margin: auto;
+	/*border: solid 1px red;*/
+	padding: 20px 0;
+}
+.main-nav{
+	float: right;
+	/* border: solid 1px yellow;*/
+}
+/* selector descendiente*/
+.main-nav li{
+	float: left;
+	margin: 8px 0 0 15px;
+}
+.cleaner{
+	clear: both;/*  es para que no se achique el height despues de la flotacion */
+}
+#banner{
+	background: url(../images/indexbanner-bg3.jpg) center top no-repeat;
+	background-size: cover; /* tamaño de la imagen de fondo. el valor cover es decirle a la imagen de fondo vas a ocupar toda el area que tenga la caja. crece proporcionalmente*/
+}
+.container{
+	width: 1200px;
+	margin:auto;
+}
+.banner-title{
+	font-size: 50px;
+	color:#fff;
+	padding-top: 120px;
+	margin: 0;
+}
+.banner-text{
+	font-size: 14px;
+	color:#fff;
+	line-height: 28px;
+}
+.register{
+	background-color: #fff;
+	position: relative; /* para bajar el formulario desplaza elemento desde su ubicacion original*/
+	top: 30px;
+}
+.register input{
+	width: 1000px;
+	height: 60px;
+	font-size: 16px;
+	font-family: inherit;/*hereda la tipografia del body*/
+}
+.register button{
+	border:none;
+	background-color: #06B4F2;
+	width: 195px;
+	height: 60px;
+	font-size: 16px;
+	color:#fff;
+}
+.producto{
+	border: dashed 1px green;
+	width: 300px;
+	text-align: center;
+	float:left;
+	margin-top: 100px;
+}
+
+/* tamaños 
+ancho - width:;
+alto - height:;
+
+modelo de cajas - box model
+	 -width
+	 -height
+	 -padding - al sumar padin hay que restar al ancho
+	 -border - necesita de 3 caracteristicas
+	 	border-style:; solid dashed dotted double
+	 	border-width:; ancho del borde
+	 	border-color:;
+	 -margin - no hace que el elemnto crezca pero ocupa espacio.
+  */
