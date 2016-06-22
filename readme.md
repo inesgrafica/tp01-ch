@@ -1,2 +1,3 @@
 #Nuestro primer repositorio
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor</strong> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Aliquid vero quod voluptates veritatis</strong> unde esse odit quasi consectetur dolorem sint, facilis ut atque beatae tempora culpa eaque. Debitis, sequi praesentium.</p>
